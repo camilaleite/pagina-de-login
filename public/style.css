@@ -1,0 +1,115 @@
+* {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 56px;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-weight: 500;
+}
+body {
+  background-color: #2cb3f3;
+  height: 1024px;
+  width: 1366px;
+  box-sizing: border-box;
+  align-items: center;
+  z-index: 1;
+}
+.caixa-letra {
+  text-align: center;
+}
+.retangulo {
+  width: 880px;
+  height: 616px;
+  position: absolute;
+  left: 243px;
+  top: 245px;
+  background-color: white;
+  border-radius: 100px 100px 0px 0px;
+  display: flex;
+  z-index: 2;
+}
+.rosto-fin {
+  width: 692px;
+  height: 487px;
+  background-color: #ffe1c9;
+  position: absolute;
+  left: 337px;
+  top: 309px;
+  display: flex;
+  border-radius: 50%;
+  z-index: 3;
+}
+.olho-1 {
+  background-color: black;
+  z-index: 4;
+  position: absolute;
+  width: 55.7px;
+  height: 55.7px;
+  left: 515.39px;
+  top: 405.88px;
+  border-radius: 50%;
+}
+.olho-2 {
+  background-color: black;
+  z-index: 5;
+  position: absolute;
+  width: 55.7px;
+  height: 55.7px;
+  left: 795.46px;
+  top: 405.88px;
+  border-radius: 50%;
+}
+.formulario {
+  z-index: 6;
+}
+.email {
+  position: absolute;
+  width: 373.96px;
+  height: 63.65px;
+  left: 496.29px;
+  top: 563px;
+  z-index: 7;
+  background: #ffffff;
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #cccccc;
+}
+.senha {
+  position: absolute;
+  width: 373.96px;
+  height: 63.65px;
+  left: 496.29px;
+  top: 626px;
+  z-index: 8;
+  background: #ffffff;
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #cccccc;
+}
+.butao {
+  position: absolute;
+  width: 220px;
+  height: 70px;
+  left: 573px;
+  top: 885px;
+  background: #55a603;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #b2f272;
+}
